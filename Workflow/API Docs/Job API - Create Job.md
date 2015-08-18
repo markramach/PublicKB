@@ -10,12 +10,12 @@ Use this API operation when you want to create a new job within a given account.
 
 ### Structure
 
-    POST http://64.15.188.230/jobs/{accountAlias}?immediate=true|false
+    PUT http://64.15.188.230/jobs/{accountAlias}?immediate=true|false
     
 
 ### Example
 
-    POST http://64.15.188.230/jobs/ALIAS?immediate=false
+    PUT http://64.15.188.230/jobs/ALIAS?immediate=false
     
 
 ## Request
